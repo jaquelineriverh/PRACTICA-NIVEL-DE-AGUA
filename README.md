@@ -267,14 +267,17 @@ else if(safetyDistance>=1 && safetyDistance<=2)
 4.Hacer la conexion de HC-SR04 ULTRASONIC Distance sensor
  con la ESP32 como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/ULTRASONICO%20CONEXION.png)
 
 
 5.Hacer la conexion de LCD con la ESP32 como se muestra en la siguente imagen.
 
 
 ![]()
+
+
 6. Agregar los 6 focos led con sus respectivas resistencias con la conexion ESP32, estos se representaran con colores, los azules para un nivel de agua, el verde lleno y rojo para el vacio.
+
 
 ![]()
 
