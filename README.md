@@ -303,7 +303,9 @@ Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos le
 **LLENO**
 
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/LLENO.png)
+
+
 
 ### EVIDENCIAS
 
