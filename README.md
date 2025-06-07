@@ -274,20 +274,25 @@ Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos le
 
 ![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/vacio.png)
 
-1% AL 25%
+**1% AL 25%**
 
 
 ![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/cuarto.png)
 
 
-26% al 50%
+**26% al 50%**
+
+
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/medio.png)
+
+
+
+**51% al 75%**
 
 
 ![]()
 
 
-
-![]()
 ![]()
 ![]()
 
