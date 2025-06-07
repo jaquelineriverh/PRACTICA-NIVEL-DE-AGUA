@@ -234,7 +234,7 @@ else if(safetyDistance>=1 && safetyDistance<=2)
 
 
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/LIBRERIA%20LIQUID%20EJ3.png)
 
 
 
