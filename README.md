@@ -297,7 +297,12 @@ Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos le
 **76% al 99%**
 
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/casi%20lleno.png)
+
+
+**LLENO**
+
+
 ![]()
 
 ### EVIDENCIAS
