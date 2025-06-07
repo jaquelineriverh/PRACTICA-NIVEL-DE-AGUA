@@ -290,7 +290,11 @@ Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos le
 **51% al 75%**
 
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/tres%20cuartos.png)
+
+
+
+**76% al 99%**
 
 
 ![]()
