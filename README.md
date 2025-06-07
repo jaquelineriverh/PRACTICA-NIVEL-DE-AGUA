@@ -269,8 +269,14 @@ else if(safetyDistance>=1 && safetyDistance<=2)
 
 Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos led como se muestra en la siguente imagen.
 
+**VACIO**
 
-![]()
+
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/vacio.png)
+
+1% AL 25%
+
+
 ![]()
 ![]()
 ![]()
