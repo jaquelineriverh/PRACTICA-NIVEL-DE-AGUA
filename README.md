@@ -56,15 +56,11 @@ const int led3 = 2;
 const int led4 = 17;
 const int led5 = 5;
 const int led6 = 18;
-
-
 // defines variables
 long duration;
 int distance;
 int safetyDistance;
 LiquidCrystal_I2C lcd(I2C_ADDR, LCD_COLUMNS, LCD_LINES);
-
-
 void setup() {
 pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
 pinMode(echoPin, INPUT); // Sets the echoPin as an Input
@@ -74,15 +70,10 @@ pinMode(led3, OUTPUT);
 pinMode(led4, OUTPUT);
 pinMode(led5, OUTPUT);
 pinMode(led6, OUTPUT);
-
-
-
 Serial.begin(9600); // Starts the serial communication
 lcd.init();
 lcd.backlight();
   }
-
-
 void loop() {
   long t; //timepo que demora en llegar el eco
 long d; //distancia en centimetros
@@ -93,16 +84,10 @@ delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
 delayMicroseconds(10);
 digitalWrite(trigPin, LOW);
-
 // Reads the echoPin, returns the sound wave travel time in microseconds
 duration = pulseIn(echoPin, HIGH);
-
 // Calculating the distance
-distance= duration*0.034/2;
-
-
-
-  
+distance= duration*0.034/2; 
 safetyDistance = distance;
 if (safetyDistance>=3 && safetyDistance<=100)
 {
@@ -111,9 +96,7 @@ if (safetyDistance>=3 && safetyDistance<=100)
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
-  digitalWrite(led6, LOW);
-
- 
+  digitalWrite(led6, LOW); 
 }
 else if(safetyDistance>=101 && safetyDistance<=200) 
 {
@@ -123,7 +106,6 @@ else if(safetyDistance>=101 && safetyDistance<=200)
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
    digitalWrite(led6, LOW);
-
 }
 else if(safetyDistance>=201 && safetyDistance<=300)
 {
@@ -144,7 +126,6 @@ else if(safetyDistance>=301 && safetyDistance<=398)
   digitalWrite(led5, LOW);
    digitalWrite(led6, LOW);
 }
-
 else if(safetyDistance>=399 && safetyDistance<=400)
 {
  digitalWrite(led1,  LOW);
@@ -172,19 +153,16 @@ else
   digitalWrite(led5, LOW);
    digitalWrite(led6, LOW);
 }
-
 // Prints the distance on the Serial Monitor
  Serial.print("Distance: ");
 Serial.println(distance);
 delay (2000);
-
   lcd.setCursor(0, 0);
   lcd.print("   DIPLOMADO");
   lcd.setCursor(0, 1); 
   lcd.print(" AUTOMATIZACION");
    delay(2000);
   lcd.clear();
-
    lcd.setCursor(0, 0);
   lcd.print(" JAQUELINE R.H");
   lcd.setCursor(0, 1); 
@@ -211,7 +189,6 @@ else if(safetyDistance>=101 && safetyDistance<=200)
     lcd.print("   26% AL 50%");
   delay(2000);
   lcd.clear();
-  
 }
 else if(safetyDistance>=201 && safetyDistance<=300) 
 {
@@ -221,7 +198,6 @@ else if(safetyDistance>=201 && safetyDistance<=300)
     lcd.print("   51% AL 75%");
   delay(2000);
   lcd.clear();
-  
 }
 else if(safetyDistance>=301 && safetyDistance<=398) 
 {
@@ -238,7 +214,6 @@ else if(safetyDistance>=1 && safetyDistance<=2)
   lcd.print("Distancia: "+ String (distance)+"cm");
   lcd.setCursor(0,1);
    lcd.print("    VACIO");
-  
   delay(2000);
    lcd.clear();
    }
@@ -248,7 +223,6 @@ else if(safetyDistance>=1 && safetyDistance<=2)
   lcd.print("Distancia: "+ String (distance)+"cm");
   lcd.setCursor(0,1);
    lcd.print("     LLENO");
-  
   delay(2000);
    lcd.clear();
    }
@@ -279,7 +253,7 @@ else if(safetyDistance>=1 && safetyDistance<=2)
 6. Agregar los 6 focos led con sus respectivas resistencias con la conexion ESP32, estos se representaran con colores, los azules para un nivel de agua, el verde lleno y rojo para el vacio.
 
 
-![]()
+![](https://github.com/jaquelineriverh/PRACTICA-NIVEL-DE-AGUA/blob/main/focos%20led.png)
 
 
 
@@ -297,11 +271,23 @@ Cuando haya funcionado, verás los valores dentro del LCD 16x2 y en los focos le
 
 
 ![]()
+![]()
+![]()
+![]()
+![]()
+![]()
 
 ### EVIDENCIAS
 
 
-https://github.com/user-attachments/assets/512a8199-b5fe-4822-80ca-ff7c59d4fce5
+
+
+
+
+https://github.com/user-attachments/assets/0810382c-b727-44f3-96a9-bb41cb41fe4a
+
+
+
 
 
 
