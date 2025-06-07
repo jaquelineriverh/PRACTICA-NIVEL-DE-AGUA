@@ -5,7 +5,7 @@ ESTE REPOSITORIO MUESTRA EL ENCENDIDO DE LUCES LED POR MEDIO DE UN NIVEL DE AGUA
 
 ### DESCRIPCION
 
-La Esp32 la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un ultrasonico para adquirir la distancia. Esta distancia nos ayudara para representar el nivel de agua:
+La ESP32 la utilizamos en un entorno de adquision de datos, lo cual en esta practica ocuparemos un ultrasonico para adquirir la distancia. Esta distancia nos ayudara para representar el nivel de agua:
 - 1% AL 25%
 - 26% AL 50%
 - 51% AL 75%
